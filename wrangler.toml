@@ -1,0 +1,9 @@
+name = "rollbar-telegram-webhook"
+main = "src/index.js"
+compatibility_date = "2022-07-08"
+
+[vars]
+# required secrets or env vars:
+# - CHAT_ID
+# - BOT_TOKEN
+# Run `wrangler secret put <NAME> for each of these
